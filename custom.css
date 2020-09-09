@@ -1,0 +1,620 @@
+/*navigation bar*/
+    #asdf
+    {
+        opacity: 0.4;
+    }
+
+    #navbarlogo
+    {
+        margin-left: 40%;
+    }
+
+/*end navigation bar*/
+
+/*footer*/
+    #sd
+    {
+        background-color: black;
+    }
+    li
+    {
+        list-style-type: none;
+        color: white;
+    }
+    a
+    {
+        color:white;
+    
+    }
+.scroll-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 25px;
+  left: 20px;
+  display: none;
+}
+.scroll-top i {
+  display: inline-block;
+  color: #fff;
+}
+
+#scroll
+{
+    border-radius: 50%;
+    float: right;
+}
+
+  
+/*end footer*/
+
+
+
+/*INDEX PAGE*/
+
+    #bgimg
+    {
+    
+        background:url(images/working.jpg);width:100%;height: 70%;
+        /*     background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+    }
+    #head
+    {
+        margin-top: 50px;
+        color:black;
+    }
+    #img
+    {
+    
+        background: url(images/laptop.jpg);width: 100%;height:70%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.6;
+        margin: auto;
+    }
+
+
+    .line
+    {
+        position: fixed;
+    }
+
+    #index-overlay 
+    {
+        background: linear-gradient(rgba(0, 255, 255,.8), rgba(0, 255, 255,.8)),  url(images/banner-video.jpg);width: 100%;height:60%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*    background-position: center center;*/
+        color: #fff;
+        height: 450px;
+        margin: auto;
+        width: auto;
+        padding-top: 100px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%; 
+    }
+    .ht
+    {
+        height: 50%;
+    }
+    #lr
+    {
+        background-color: #00e6e6;
+        height: 15%;
+    /*    padding: 10px;*/
+        margin: 0.9px;
+    }
+    #overlap-index
+    {
+         position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+
+    #top-index
+    {
+        margin-top: 350px;
+        /*    z-index: 0;*/
+        /*      position: fixed;*/
+    }
+
+    .owl-carousel .item 
+    {
+        text-align: center;
+        height: 100px;
+        vertical-align: middle;
+         align-items: center;
+        margin-top: 40px;
+    }
+    .heading-style-2::after
+    {
+        content:"";
+        position: absolute;
+        left: 600;
+        bottom:0;
+        width: 50px;
+        height: 3px;
+/*        top:800;*/
+        top: 300;
+        background-color: black;
+    }
+/*    #head-style-1, #head-style-2, #head-style-3, #head-style-4, #head*/
+/*    {*/
+/*        position: relative;*/
+/*    }*/
+    .heading-style-1::after
+    {
+        content:"";
+        position: absolute;
+        left: 4%;
+        bottom: 0;
+        top:110%;
+/*        top: 0;*/
+        width: 50px;
+        height: 3px;
+/*        margin: auto;*/
+        background-color: white;
+        /*    margin: auto;*/
+        /*    margin-left: 6%; */
+    }
+ .heading-style-1
+{
+    position: relative;
+/*    padding-bottom: -10px;*/
+/*    padding-top: 30px;*/
+}
+/*@media screen and(max-width:800px)*/
+/*{*/
+/*    .heading-style-1{bottom: 10;}*/
+    
+/*}*/
+    .heading-style-3::after
+    {
+        content: "";
+        position: absolute;
+        left:530;
+        bottom:0;
+        top:70 ;
+         width: 50px;
+        height: 3px;
+        background-color: black;
+        /*    margin: auto;*/
+    }   
+    .heading-style-4::after
+    {
+        content: "";
+        position: absolute;
+        left:230;
+        bottom: 0;
+        top: 170;
+        width: 50px;
+        height: 3px;
+        background-color: black;
+        /*    margin: auto;*/
+    }   
+    .heading-style-5::after
+    {
+        content: "";
+        position:absolute;
+        left:20;
+        bottom: 0;
+        top: 140;
+        width: 50px;
+        height: 3px;
+        background-color: black;
+        /*    margin: auto;*/
+    }
+    body
+    {
+        overflow-x: hidden;
+        align-content: center;
+    }
+
+    .carousel-control-prev
+    {
+        margin-top: -18%;
+    }
+    .carousel-control-next
+    {
+        margin-top: -18%;
+    }
+
+    #icon-prev::after
+    {
+        content: '<';
+        font-size: 90px;
+        color: gray;
+        /*    align-items: flex-start;*/
+    }
+
+    #icon-next::after
+    {
+        content: '>';
+        font-size: 90px;
+        color:gray;
+        margin-bottom: 15%;
+       margin-top: 60px;
+    }
+    @media screen and (max-width:800px)
+    {
+/*        .heading-style-1{top: 40;} */
+        body
+        {
+            overflow-x: hidden;
+        }
+        .heading-style-2::after{ left: 161;top:355;}
+        .heading-style-1::after{left:9%;}
+        .heading-style-3::after{ left: 161;top:185;}
+        .heading-style-4::after{left:180;}
+        .contact-form{width: 100%;}
+        #form-detail{width: 100%;}
+    }
+/*END*/
+
+/*ABOUT US*/
+
+    #overlap
+    {
+         position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+    #lr
+    {
+        background-color: #00e6e6;
+        height: 15%;
+    }
+    body
+    {
+        overflow-x: hidden;
+    }
+    #ourstory
+    {
+    
+        background:url(images/img/about-bg.jpg);width:100%;height: 70%;
+        /*     background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+    }
+    #about-overlay 
+    {
+        background:   url(images/img/about-banner.jpg);width: 100%;height:60%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        color: #fff;
+        height: 450px;
+        margin: auto;
+        width: auto;
+        padding-top: 100px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+   
+    #cont-about
+    {
+        align-content: center;
+    }
+    #about-para
+    {
+        text-align: justify;
+    }
+
+       
+    .card:hover 
+    {
+        transform: scale(0.9, 0.9);
+        box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+        -5px -5px 30px 15px rgba(0,0,0,0.22);
+    }
+
+/*END*/
+
+
+/*CONTACT*/
+
+    #user-circle
+    {
+        font-size:40px;
+        padding:30px;
+        vertical-align:middle;
+        float:left;
+        margin-left: 3%;
+         color: orange;
+    }
+    #fa-address, #fa-phone, #fa-mail, #fa-email-fil
+    {
+        font-size:40px;
+        padding: 10px;
+/*    padding-top: px;*/
+/*        vertical-align:middle;*/
+        color: orange;
+        margin-left: 3%;
+    }
+    #contact-support
+    {   
+       padding-top:40px; 
+        float:right;
+        font-size:23px; 
+        margin-left: 1%;
+        /*    color: white;*/
+    
+    }
+
+    #contact
+    {
+
+/*        background-color:white;*/
+/*        border: 2px solid black;*/
+/*        border-bottom-right-radius: 15%;*/
+/*        border-top-right-radius: 15%;*/
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    #cont
+    {
+        margin-top: 3%;
+/*        background-color: red;*/
+    }
+    #contact-button
+{
+    margin-left: 17%;
+    width:50%;
+/*    align-items: center;*/
+/*    margin-left: 0%;*/
+}
+#pricing-head
+{
+    background: url(images/img/8.jpg);width:100%;height: 40%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+}
+    #form-detail
+    {
+        background: #fff;
+/*        padding: 3%;*/
+/*        margin-left: 8%;*/
+        border-top-right-radius: 0.5 rem;
+        border-bottom-right-radius: 0.5 rem;
+        align-content: center;
+/*        width: 30%;*/
+/*        margin-top: 2%;*/
+/*        margin-bottom: 2%;*/
+        background: transparent;
+        
+    }
+    .contact-form label
+    {
+        font-weight: 600;
+        float: left;    
+    }
+    .contact-form button
+    {
+        background: #25274d;
+        color: #fff;
+        font-weight: 600;
+        width: 25%;
+    }
+    .contact-form button:focus
+    {
+        box-shadow: none;
+    }
+    .contact
+    {
+        /*    border: 2px solid black;*/
+        /*    border-radius: 10%;*/
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 60%;
+    }
+    #contact-overlay 
+    {
+        background: linear-gradient(rgba(0, 255, 255,.8), rgba(0, 255, 255,.8));
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*    background-position: center center;*/
+        color: #fff;
+        height: 120px;
+        margin: auto;
+        width: auto;
+        padding-top: 100px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%; 
+    }
+    #overlap-contact
+    {
+         position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+    #image-contact
+    {
+        background-image:url(images/l3.jpg);width:100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*        opacity: 0.6;*/
+        margin: auto;
+        margin-top: 8%;
+    
+    }
+
+
+/*END*/
+
+/*product page*/
+
+  #product-overlay 
+    {
+        background: linear-gradient(rgba(0, 255, 255,.8), rgba(0, 255, 255,.8));
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*    background-position: center center;*/
+        color: #fff;
+        height: 120px;
+        margin: auto;
+        width: auto;
+        padding-top: 100px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%; 
+    }
+    #overlap-product
+    {
+         position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+
+/*product page end*/
+
+/*pricing page*/
+  #price-overlay 
+    {
+        background: linear-gradient(rgba(0, 255, 255,.8), rgba(0, 255, 255,.8));
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*    background-position: center center;*/
+        color: #fff;
+        height: 120px;
+        margin: auto;
+        width: auto;
+        padding-top: 100px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%; 
+    }
+    #overlap-price
+    {
+         position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+    #price-content
+{
+    border: 4px solid black;
+    padding: 15px;
+    margin:2%;
+    border-top-left-radius: 19%;
+    border-bottom-right-radius: 19%;
+}
+#price-bg
+{
+     background-image:url(images/img/cont1.jpg);width:100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*        opacity: 0.6;*/
+        margin: auto;
+        margin-top: 8%;
+}
+
+
+/*pricing page end*/
+
+/*news page*/
+    #news-overlay 
+    {
+        background:linear-gradient(rgba(0, 255, 255,.8), rgba(0, 255, 255,.8));
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*    background-position: center center;*/
+        color: #fff;
+        height: 120px;
+        margin: auto;
+        width: auto;
+        padding-top: 100px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%; 
+    }
+    #overlap-news
+    {
+         position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+    .owl-carousel #item 
+    {
+        text-align: center;
+        height: 500px;
+        vertical-align: middle;
+         align-items: center;
+        margin-top: 40px;
+    }
+    #contact-card
+    {
+        color:black;
+    }
+    #usr
+    {
+        width: 35%;
+    float: left;
+/*    border-radius: 30%;*/
+    height: 5%;
+    margin-left: 13%;
+    margin-right: 4%;
+}
+#email
+{
+    width: 35%;
+    float: right;
+/*     border-radius: 30%;*/
+    height: 5%;
+      margin-right: 13%;
+}
+
+/*#btn*/
+/*{*/
+/*     width: 60%;*/
+/*    margin-left: 25%;*/
+/*    width: 100%;*/
+/*     border-radius: 30%;*/
+    
+/*}*/
+#news-mail
+{
+        background: url(images/img/contact12.jpg);width: 100%; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+                opacity: 0.7;
+/*        margin: auto;*/
+    margin-bottom: 0%;
+}
+
+.btn:hover{
+    -webkit-transform: scale(1.5);
+    background: #31708f;
+}
